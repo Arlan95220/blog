@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Arlan</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../assage/css/index.css"/>
+<link rel="stylesheet" href="../assage/css/newmessage.css"/>
+<script src="../assage/js/index.js"></script>
+<script src="../assage/js/newmessage.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+<a id="top"></a>
+<nav class="shadow">
+<a href="../index.html"><img src="../assage/image/logo.png"></a>
+<div class="all">
+<table>
+<tr><td align="right">
+<form name="form1" method="post" action="#">
+<div class="container-1">
+	<span class="icon"><i class="fa fa-search"></i></span>
+	<span style="font-size:1.3vw;">搜尋:</span>
+	<input type="search" name ="want" id="search" placeholder="Search...">
+</div>
+</form>
+</td></tr>
+<tr><td style="padding-right:6vw;" valign="bottom">
+      <div class="btn-group" style="float:right;">
+  <button type="button" style="font-size:1.3vw;color:#FFFFFF" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    其他
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">歐美都市傳說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">各地神話傳說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">無關緊要的瑣事</a>
+    </div>
+  </div>
+  
+    <div class="btn-group" style="float:right;">
+   <button type="button" style="font-size:1.3vw;color:#FFFFFF;" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    書籍相關
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">小說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">認知與決策</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">中世紀文學</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">古典文學</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">長篇史詩</a>
+    </div>
+  </div>
+
+<div class="btn-group" style="float:right;">
+  <button type="button" style="font-size:1.3vw;color:#FFFFFF;" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    影視不專業影評
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">英/美劇</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">電影</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">動畫</a>
+    </div>
+  </div>
+  
+  <div class="dropdown mr-1" style="float:right;">
+    <button type="button" style="font-size:1.3vw;color:#FFFFFF;"class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    初學者程式指南
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuOffset">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">一些準備與選擇</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">HTML</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">JAVA</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">JSP</a>
+    </div>
+  </div>
+  </td></tr>
+  </table>
+</div>
+</nav>
+ <div class="row">
+<!---------------內容框-------------------->
+<div class="col-9">
+<!--------所有留言----------->
+<div class="allmessage" id="allmessage">
+<div class="amessage">
+<b>Name</b>  <span class="from">2000.04.24 00:00:00  From <a href="">ajslfj;aja</a></span><br>
+asjfo;ajf;lafj;lgj;asgjg;lasjgggggggggggggggggrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrgggggggggggggggggggggggggggggggggggggggggg<br>
+<div class="back">
+⤷sdeojgggoddddrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddddddddddddddddddddddddddddddddd <br>
+<b>At</b> 2000.04.24 00:00:00 <b>From</b> name<br>
+<hr>
+</div>
+<div class="back">
+<form method="post" action="#">
+⤷ <b>Name: </b><input type="text"/><br>
+  <textarea></textarea>
+  <input type="submit" value="送出" class="sub"/>
+ </form>
+</div>
+</div>
+<!----------留言2---------->
+<div class="amessage">
+<b>Name</b>  <span class="from">2000.04.24 00:00:00  From <a href="">ajslfj;aja</a></span><br>
+asjfo;ajf;lafj;lgj;asgjg;lasjgggggggggggggggggrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrgggggggggggggggggggggggggggggggggggggggggg<br>
+<div class="back">
+⤷sdeojgggoddddrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddddddddddddddddddddddddddddddddd <br>
+<b>At</b> 2000.04.24 00:00:00 <b>From</b> name<br>
+<hr>
+</div>
+<div class="back">
+<form method="post" action="#">
+⤷ <b>Name: </b><input type="text"/><br>
+  <textarea></textarea>
+  <input type="submit" value="送出" class="sub"/>
+ </form>
+</div>
+</div>
+<!-----------留言2end---------------->
+</div>
+<!-----------all留言end---------------->
+<!------------所有文章------------->
+<div class="allword" id="allword">
+    <span class="title">初學者程式指南<br></span>
+      <div class="theth">
+		<div class="setitle">一些準備與選擇<br></div>
+		<div class="aword">
+			<a class="t" href="">title</a>
+			<a class="t" href="">></a>
+			<a class="t" href="">x</a>
+			sdopgjosdpgjsopdgjsdopgjg
+			<span class="ti">2000/04.27 00:00:00</span>
+		</div>
+		<div class="aword">
+			<a class="t" href="">title</a>
+			<a class="t" href="">></a>
+			<a class="t" href="">x</a>
+			sdopgjosdpgjsopdgjsdopgjg
+			<span class="ti">2000/04.27 00:00:00</span>
+		</div>
+	  </div>
+	  <div class="theth">
+		<div class="setitle">HTML<br></div>
+	  </div>
+	  <div class="theth">
+		<div class="setitle">JAVA<br></div>
+	  </div>
+	  <div class="theth">
+		<div class="setitle">JSP<br></div>
+	  </div>
+	  
+    <span class="title">影視不專業影評<br></span>
+      <div class="theth">
+		<div class="setitle">英/美劇<br></div>
+	  </div>
+      <div class="theth">
+		<div class="setitle">電影<br></div>
+	  </div>
+      <div class="theth">
+		<div class="setitle">動畫<br></div>
+	  </div>
+	  
+    <span class="title">書籍相關<br></span>
+	<div class="theth">
+		<div class="setitle">小說<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">認知與決策<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">中世紀文學<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">古典文學<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">長篇史詩<br></div>
+	</div>
+	
+	<span class="title">其他<br></span>
+	<div class="theth">
+		<div class="setitle">歐美都市傳說<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">各地神話傳說<br></div>
+	</div>
+	<div class="theth">
+		<div class="setitle">無關緊要的瑣事<br></div>
+	</div>
+</div>
+<!------------所有文章END------------->
+<!--------------新增文章------------------->
+<div class="newword" id="newword">
+<form method="post" action="#">
+<h3 style="text-align:center;">新增文章</h3><br>
+標題: <input type="text" class="text"/><br>
+<textarea></textarea><br>
+<input type="file" class="file" id="file" multiple="multiple"/>
+<hr>
+版:
+<select name="board">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+</select><br>
+區:
+<select name="board">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+</select><br>
+<input class="sub" type="submit" value="Next"/>
+</form>
+</div>
+<!----------------新增文章END----------------->
+<!--------------版管理------------------->
+<div class="newboard" id="newboard">
+建立新版<br>
+<form method="post" action="#">
+<input type="text" class="text"/><br>
+<input class="sub" type="submit" value="Next"/>
+</form>
+<hr>
+建立新區<br>
+<form method="post" action="#">
+<select name="board">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+</select>
+<input type="text"class="text"/><br>
+<input class="sub" type="submit" value="Next"/>
+</form>
+<hr>
+所有板<br>
+<form method="post" action="#">
+<input type="checkbox" name="" value="">isdhfiofh</input><br>
+<input type="checkbox" name="" value="">2</input><br>
+<input type="checkbox" name="" value="">3</input><br>
+<input class="sub" type="submit" value="刪除"/>
+</form>
+<hr>
+所有區<br>
+<form method="post" action="#">
+<form method="post" action="#">
+<select name="board">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+</select>
+<br>
+<input type="checkbox" name="" value="">1</input><br>
+<input type="checkbox" name="" value="">2</input><br>
+<input type="checkbox" name="" value="">3</input><br>
+<input class="sub" type="submit" value="刪除"/>
+</form>
+</div>
+<!----------------版管理END----------------->
+</div>
+<!--------------主區end------------------->
+<!-----------------側邊-------------------->
+<div class="rightas col-3">
+<div class="change">
+  <a href="javascript: open(1);" class="list-group-item list-group-item-action">所有留言</a>
+  <a href="javascript: open(2);" class="list-group-item list-group-item-action">所有文章</a>
+  <a href="javascript: open(3);" class="list-group-item list-group-item-action">新增文章</a>
+  <a href="javascript: open(4);" class="list-group-item list-group-item-action">版管理</a>
+</div>
+</div>
+</div>
+<!--上跳鍵-->
+<div class="up">
+<a href="#top"><img src="../assage/image/up.png"></a>
+</div>
+<!-----------------footer------------------->
+<footer class="shadow">
+最佳瀏覽器:Google Chrome<br>
+&copy; Arlan 版權所有，請勿抄襲、轉載
+</footer>
+</body>
+</html>
+</html>

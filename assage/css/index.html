@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Arlan</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assage/css/index.css"/>
+<link rel="stylesheet" href="assage/css/word.css"/>
+<script src="assage/js/index.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+<a id="top"></a>
+<nav class="shadow">
+<a href="index.html"><img src="assage/image/logo.png"></a>
+<div class="all">
+<table>
+<tr><td align="right">
+<form name="form1" method="post" action="#">
+<div class="container-1">
+	<span class="icon"><i class="fa fa-search"></i></span>
+	<span style="font-size:1.3vw;">搜尋:</span>
+	<input type="search" name ="want" id="search" placeholder="Search...">
+</div>
+</form>
+</td></tr>
+<tr><td style="padding-right:6vw;" valign="bottom">
+
+  <div class="btn-group" style="float:right;">
+  <button type="button" style="font-size:1.3vw;color:#FFFFFF" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    其他
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="page/word.html?board=4&area=1" style="font-size:1.3vw;">歐美都市傳說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">各地神話傳說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">無關緊要的瑣事</a>
+    </div>
+  </div>
+  
+    <div class="btn-group" style="float:right;">
+   <button type="button" style="font-size:1.3vw;color:#FFFFFF;" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    書籍相關
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">小說</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">認知與決策</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">中世紀文學</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">古典文學</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">長篇史詩</a>
+    </div>
+  </div>
+
+<div class="btn-group" style="float:right;">
+  <button type="button" style="font-size:1.3vw;color:#FFFFFF;" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    影視不專業影評
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">英/美劇</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">電影</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">動畫</a>
+    </div>
+  </div>
+  
+  <div class="dropdown mr-1" style="float:right;">
+    <button type="button" style="font-size:1.3vw;color:#FFFFFF;"class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,0">
+    初學者程式指南
+    </button>
+    <div class="dropdown-menu" style="background:#DCDCDC;" aria-labelledby="dropdownMenuOffset">
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">一些準備與選擇</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">HTML</a>
+      <a class="dropdown-item" href="#" style="font-size:1.3vw;">JAVA</a>
+	  <a class="dropdown-item" href="#" style="font-size:1.3vw;">JSP</a>
+    </div>
+  </div>
+  </td></tr>
+  </table>
+</div>
+</nav>
+ <div class="row">
+<!---------------內容框-------------------->
+<div class="col-8">
+<div class="word">
+<h2>About Thistle</h2>
+<blockquote>
+&nbsp;&nbsp;Thistle主要用於基礎的程式語言入門教學以及各地傳說故事的介紹，也包含少數書籍、電影心得。<br><br>
+&nbsp;&nbsp;更新過程中可能有所遺漏或錯誤，歡迎留言與糾正，根據留言將會盡快修正，以免誤人學習。如果有特別想知道的內容也歡迎留言讓我們知道。<br><br>
+&nbsp;&nbsp;如需委託網站製作，請參考右側聯絡資訊，價格會因委託複雜度上下浮動。<br><br>
+&nbsp;&nbsp;感謝您的耐心觀看。<br><br>
+</blockquote>
+</div>
+</div>
+<!-----------------側邊-------------------->
+<div class="as col-3">
+<!--------about me------->
+<div class="about all">
+<a href="javascript:sing(0)"><img src="assage/image/head.png"/></a>
+<h3>Arlan</h3>
+<p>
+LINE: ZX24969557<br>
+E-mail: zx24969557@gmail.com<br>
+歡迎委託訂製網頁<br>
+更多資訊請點擊下方按鈕<br>
+<a href="https://arlan95220.github.io/Arlanre/" target="_blank" class="a">My Wed ></a>
+<br><br>
+</p>
+</div>
+<!--------newWord------------>
+<div class="newword all">
+<a>43tgwrfdhfdhdfhdfh<br></a>
+<a>43tgwrfdhfdhdfhdfh<br></a>
+<a>43tgwrfdhfdhdfhdfh<br></a>
+<a>43tgwrfdhfdhdfhdfh<br></a>
+<a>43tgwrfdhfdhdfhdfh<br></a>
+</div>
+<!--------message------------->
+<div class="wed all">
+總瀏覽數:0<br>
+總篇數:0<br>
+總留言數:0
+</div>
+</div>
+</div>
+<!--登入框-->
+<div id="singwindow">
+<button id="x" onclick="x();">X</button><br><br>
+<form method="post" action="#"><!--[後端]此處action指向帳密jsp判斷-->
+<div class="tit">ID</div><input style="width:15vw;font-size:1.4vw;height:2vw;" type="text" size="10"/><br><br>
+<div  class="tit">Password</div><input style="width:15vw;font-size:1.4vw;height:2vw;"type="password" size="10" /><br>
+<input class="sub" style="width:5vw;font-size:1.2vw;height:2.4vw;" type="submit" value="Next"/>
+</form>
+</div>
+<!--上跳鍵-->
+<div class="up">
+<a href="#top"><img src="assage/image/up.png"></a>
+</div>
+<!-----------------footer------------------->
+<footer class="shadow">
+最佳瀏覽器:Google Chrome<br>
+&copy; Arlan 版權所有，請勿抄襲、轉載
+</footer>
+</body>
+</html>

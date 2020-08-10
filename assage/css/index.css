@@ -1,0 +1,147 @@
+body{
+background:#FFFFFF;
+}
+nav{
+margin:0.5vw 0.8vw;
+background:#008844;
+border-radius:2vw;
+background: -webkit-linear-gradient(#008844,#99FF99,#005455);
+background: -o-linear-gradient(#008844,#99FF99,#005455);
+background: -moz-linear-gradient(#008844,#99FF99,#005455);
+background: linear-gradient(#008844,#99FF99,#005455);
+border:solid 0.3vw #FFFFFF00;
+}
+nav img{
+width:15vw;
+margin:0.5vw 6vw;
+}
+nav .all{
+float:right;
+}
+nav table{
+height:8vw;
+color:#FFFFFF;
+font-weight:bold;
+}
+#search{
+float:right;
+height:2vw;
+margin-right:1.5vw;
+margin-left:0.8vw;
+width:12vw;
+font-size:1.2vw;
+}
+.row{
+width:100%;
+margin:0 0;
+}
+.word{
+padding:1vw 3vw;
+width:95%;
+margin:3vw 5vw;
+background:#FFFFFF;
+border:solid 0.1vw 	#DDDDDD;
+box-shadow: #555555 0.1vw 0.1vw 0.8vw 0px;
+}
+.word h2{
+font-size:2.8vw;
+margin:1vw 0;
+font-style:italic;
+}
+.word blockquote{
+font-size:1.3vw;
+margin:1vw 1vw;
+line-height:2vw;
+letter-spacing:0.1vw;
+}
+.as{
+margin-left:5vw;
+}
+.as .all{
+word-wrap:break-word;
+background:	#EEEEEE;
+width:22vw;
+margin-top:2vw;
+margin-bottom:1vw;
+border:double 0.5vw #DDDDDD;
+box-shadow: #AAAAAA 0.2vw 0.2vw 0.5vw; 0px;
+}
+.as .about img{
+border-radius:100%;
+width:12vw;
+margin:1vw 5vw;
+border:white solid 0.3vw;
+}
+.as .about h3{
+text-align:center;
+font-size:2vw;
+}
+.as .about p{
+text-align:center;
+font-size:1.2vw;
+}
+.as .about .a{
+margin:1.3vw 0.5vw;
+padding:0.3vw 0.5vw;
+color:#000000;
+text-decoration:none;
+background-color:#DDDDDD;
+float:right;
+border:solid 0.15vw #FFFFFF;
+box-shadow: #000000 0.1vw 0.1vw 0px 0px;
+font-size:1.1vw;
+}
+.as .about a:visited{
+color:#000000;
+}
+.as .newword {
+padding:0.5vw 0.8vw;
+font-size:1.3vw;
+line-height:2vw;
+}
+.as .wed{
+padding:0.5vw 0.8vw;
+font-size:1.2vw;
+line-height:2vw;
+margin-bottom:3vw
+}
+#singwindow{
+border:solid 0.1vw #666666;
+background:#DDDDDD;
+width:30%;
+position: fixed;
+top: 15vw;
+right:35%;
+padding-left:7vw;
+padding-bottom:1vw;
+box-shadow: #000000 0.1vw 0.1vw 1vw 0px;
+display:none;
+}
+#singwindow #x{
+float:right;
+}
+#singwindow .tit{
+font-size:1.3vw;
+}
+#singwindow .sub{
+margin-top:0.3vw;
+margin-left:15vw;
+}
+.up img{
+width:2.5vw;
+position:fixed;
+top:90%;
+right:1vw;
+border:solid #DDDDDD 0.2vw;
+box-shadow: #000000 0.1vw 0.1vw 0.3vw 0px;
+}
+footer{
+height:8vw;
+width:100%;
+color:#FFFFFF;
+text-align:center;
+background:#008844;
+padding:2vw;
+font-size:1vw;
+line-height:2vw;
+}

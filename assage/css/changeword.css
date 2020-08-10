@@ -1,0 +1,43 @@
+.newword{
+width:60vw;
+margin:1vw 8vw;
+padding:1vw 2vw;
+border:solid 0.1vw #AAAAAA;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.5vw;
+font-weight:bold;
+}
+.newword .text{
+width:35vw;
+margin-left:1vw;
+height:2vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+border-radius:1vw;
+padding:0 1vw;
+font-size:1.2vw;
+}
+.newword textarea{
+resize: none;
+margin:1vw;
+padding:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+border-radius:1vw;
+font-size:1.2vw;
+width:54vw;
+height:30vw;
+}
+.newword .file{
+margin-left:5vw;
+font-size:1.2vw;
+}
+.newword select{
+margin:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.2vw;
+width:15vw;
+}
+.newword .sub{
+margin:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+margin-left:50vw;
+}

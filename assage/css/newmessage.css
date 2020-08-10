@@ -1,0 +1,161 @@
+.rightas .change{
+width:15vw;
+margin-top:2vw;
+font-size:1.3vw;
+text-align:center;
+font-weight:bold;
+border:solid 0.1vw #000000;
+}
+.allmessage{
+display:block;
+}
+.amessage{
+border:solid #AAAAAA 0.1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+background:#99FF9955;
+width:60vw;
+margin:1vw 5vw;
+padding:1vw;
+font-size:1.3vw;
+line-height:2vw;
+word-wrap:break-word;
+}
+.amessage .from{
+margin-left:5vw;
+color:#999999;
+}
+.amessage .back{
+margin:1vw 3vw;
+}
+.amessage textarea{
+height:5vw;
+width:40vw;
+resize: none;
+border-radius:1vw;
+margin-top:0.5vw;
+margin-left:6vw;
+}
+.amessage input{
+height:1.8vw;
+width:10vw;
+font-size:1.2vw;
+vertical-align:bottom;
+}
+.amessage .sub{
+height:2.2vw;
+width:4vw;
+font-size:1.2vw;
+font-weight:bold;
+}
+.allword{
+margin:2vw 5vw;
+padding:1vw;
+border:solid 0.1vw #AAAAAA;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+display:none;
+}
+.allword .title{
+font-size:1.8vw;
+font-weight:bold;
+margin-top:1vw;
+}
+.allword .theth{
+margin:0.5vw 4vw;
+column-width:14vw;
+}
+.allword .setitle{
+font-size:1.5vw;
+font-weight:bold;
+Column-span:all;
+margin-bottom:1vw;
+}
+.allword .aword{
+background:#99FF9955;
+border:double 0.4vw #AAAAAA;
+padding:0.5vw;
+width:12vw;
+word-wrap:break-word;
+font-size:1.2vw;
+-webkit-column-break-aftere: always;
+margin:0.3vw 0;
+}
+.allword .aword .t{
+font-size:1.4vw;
+font-weight:bold;
+}
+.allword .aword .ti{
+font-size:1vw;
+color:#AAAAAA;
+font-style:italic;
+}
+.newword{
+width:60vw;
+margin:1vw 8vw;
+padding:1vw 2vw;
+border:solid 0.1vw #AAAAAA;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.5vw;
+font-weight:bold;
+display:none;
+}
+.newword .text{
+width:35vw;
+margin-left:1vw;
+height:2vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+border-radius:1vw;
+padding:0 1vw;
+font-size:1.2vw;
+}
+.newword textarea{
+resize: none;
+margin:1vw;
+padding:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+border-radius:1vw;
+font-size:1.2vw;
+width:54vw;
+height:30vw;
+}
+.newword .file{
+margin-left:5vw;
+font-size:1.2vw;
+}
+.newword select{
+margin:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.2vw;
+width:15vw;
+}
+.newword .sub{
+margin:1vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+margin-left:50vw;
+}
+.newboard{
+width:60vw;
+margin:1vw 8vw;
+padding:1vw 2vw;
+border:solid 0.1vw #AAAAAA;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.5vw;
+font-weight:bold;
+display:none;
+}
+.newboard .text{
+width:15vw;
+height:2vw;
+margin:1vw 1vw;
+}
+.newboard .sub{
+width:3.5vw;
+height:2.2vw;
+margin:0vw 28vw;
+font-size:1.1vw;
+}
+.newboard select{
+width:12vw;
+height:2.2vw;
+margin:0vw 1vw;
+font-size:1.1vw;
+}

@@ -1,0 +1,121 @@
+.leftas{
+margin-left:2vw;
+}
+.leftas .all{
+word-wrap:break-word;
+width:18vw;
+margin-top:3vw;
+margin-bottom:1vw;
+margin-left:2vw;
+background:#FFFFFF;
+border:double 0.5vw #DDDDDD;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+}
+.leftas .allword{
+word-wrap:break-word;
+width:18vw;
+margin-top:5vw;
+margin-bottom:1vw;
+margin-left:2vw;
+font-size:1.3vw;
+border:double 0.5vw #DDDDDD;
+border-radius:5%;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+}
+.leftas .newword {
+padding:0.5vw 0.8vw;
+font-size:1.3vw;
+line-height:2vw;
+}
+.words{
+padding:1vw 3vw;
+width:100%;
+margin:3vw 1vw;
+}
+.words h2{
+font-size:2.8vw;
+margin:1vw 0;
+text-align:center;
+}
+.words .time{
+color:#DDDDDD;
+text-align:right;
+}
+.words blockquote{
+font-size:1.3vw;
+margin:1vw 1vw;
+line-height:2vw;
+letter-spacing:0.1vw;
+}
+.words a{
+margin:5vw;
+}
+.message{
+background:#EEEEEE;
+border-radius:3vw;
+padding:3vw;
+margin:2vw 0;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:1.3vw;
+}
+.message img{
+border:solid #888888 0.1vw;
+padding:0.3vw;
+margin-right:2vw;
+margin-top:0.3vw;
+background:#FFFFFF;
+width:6vw;
+float:left;
+}
+.message .name{
+font-size:1.2vw;
+vertical-align:bottom;
+font-weight:bold;
+}
+.message input{
+height:1.8vw;
+width:10vw;
+font-size:1.2vw;
+vertical-align:bottom;
+}
+.message textarea{
+height:5vw;
+width:40vw;
+resize: none;
+border-radius:1vw;
+margin-top:0.5vw;
+}
+.message .sub{
+height:2.2vw;
+width:4vw;
+font-size:1.2vw;
+font-weight:bold;
+margin-left:43vw;
+}
+.message .name2{
+font-size:1.4vw;
+font-weight:bold;
+margin-top:3vw;
+}
+.message blockquote{
+word-wrap:break-word;
+padding:0 2vw;
+}
+.message .back{
+border:solid 0.1vw #AAAAAA;
+word-wrap:break-word;
+margin:0 3vw;
+padding:1vw;
+border-radius:1vw;
+}
+.message .back textarea{
+margin-left:5vw;
+width:38vw;
+}
+.message .sub2{
+height:2vw;
+width:4vw;
+font-size:1.1vw;
+font-weight:bold;
+margin-left:39vw;
+}
