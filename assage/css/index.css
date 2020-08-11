@@ -161,7 +161,7 @@ body{
 background:#FFF;
 }
 nav{
-height:12vw;
+height:20vw;
 margin:0;
 background:#008844;
 border-radius:0;
@@ -172,8 +172,8 @@ background: linear-gradient(#008844,#99FF99,#005455);
 border:solid 0vw #FFFFFF00;
 }
 nav img{
-width:20vw;
-margin:1vw 40%;
+width:35vw;
+margin:2vw 30%;
 }
 nav .all{
 float:right;
@@ -182,7 +182,7 @@ display:none;
 .word{
 padding:0vw 1vw;
 width:90vw;
-margin:3vw 0vw;
+margin:10vw 0vw;
 background:#FFFFFF;
 border:solid 0.1vw 	#DDDDDD;
 box-shadow: #555555 0.1vw 0.1vw 0.8vw 0px;
@@ -194,16 +194,16 @@ font-style:italic;
 text-align:center;
 }
 .word blockquote{
-font-size:4vw;
+font-size:5vw;
 margin:1vw 1vw;
-line-height:5vw;
+line-height:7vw;
 letter-spacing:0.1vw;
 }
 .as{
 display:none;
 }
 .up img{
-width:6vw;
+width:8vw;
 position:fixed;
 top:90%;
 right:1vw;
@@ -222,6 +222,7 @@ line-height:6vw;
 }
 .phonehead{
 display:block;
+padding-bottom:2vw;
 }
 .phonehead img{
 border-radius:100%;
@@ -262,10 +263,10 @@ font-weight:bold;
 display:block;
 }
 .phonego img{
-width:8vw;
+width:12vw;
 position:absolute;
-top:1.5%;
-left:3%;
+top:3%;
+right:3%;
 border:solid #DDDDDD 0.2vw;
 }
 }
