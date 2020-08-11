@@ -154,7 +154,9 @@ display:none;
 .phonego{
 	display:none;
 }
-
+.word hr{
+display:none;
+}
 
 @media(max-width: 670px){
 body{
@@ -188,7 +190,7 @@ border:solid 0.1vw 	#DDDDDD;
 box-shadow: #555555 0.1vw 0.1vw 0.8vw 0px;
 }
 .word h2{
-font-size:8vw;
+font-size:10vw;
 margin:2vw 0;
 font-style:italic;
 text-align:center;
@@ -268,5 +270,8 @@ position:absolute;
 top:3%;
 right:3%;
 border:solid #DDDDDD 0.2vw;
+}
+.word hr{
+display:block;
 }
 }
