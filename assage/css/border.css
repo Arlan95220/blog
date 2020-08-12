@@ -1,0 +1,42 @@
+ul{
+padding:0;
+}
+li{
+border:#AAAAAA solid 0.1vw;
+background: -webkit-linear-gradient(#EEEEEE,#FFFFFF,#EEEEEE);
+background: -o-linear-gradient(#EEEEEE,#FFFFFF,#EEEEEE);
+background: -moz-linear-gradient(#EEEEEE,#FFFFFF,#EEEEEE);
+background: linear-gradient(#EEEEEE,#FFFFFF,#EEEEEE);
+}
+.bordert{
+font-size:7vw;
+font-weight:bold;
+padding-left:4vw;
+letter-spacing:0.2vw;
+line-height:15vw;
+}
+.bordert:hover{
+color:#008844;
+}
+#L1, #L2, #L3,#L4 {
+display:block;
+}
+#L1 li, #L2 li , #L3 li,#L4 li{
+background:#FFFFFF;
+font-size:5vw;
+padding:2vw 12vw;
+}
+a{
+color:#000000;
+text-decoration:none;
+}
+a:hover{
+color:#008844;
+text-decoration:none;
+}
+#L1 li:hover, #L2 li:hover, #L3 li:hover,#L4 li:hover{
+background:#99FF9955;
+}
+footer{
+margin-top:0;
+}
