@@ -32,6 +32,14 @@ padding:1vw 3vw;
 width:100%;
 margin:3vw 1vw;
 }
+.word{
+padding:0vw 0vw;
+width:100%;
+margin:0vw 0vw;
+background:#FFFFFF;
+border:solid 0vw 	#DDDDDD;
+box-shadow: #555555 0vw 0vw 0vw 0px;
+}
 .words h2{
 font-size:2.8vw;
 margin:1vw 0;
@@ -50,6 +58,9 @@ letter-spacing:0.1vw;
 .words a{
 margin:5vw;
 }
+.php{
+display:none;
+}
 .message{
 background:#EEEEEE;
 border-radius:3vw;
@@ -66,11 +77,6 @@ margin-top:0.3vw;
 background:#FFFFFF;
 width:6vw;
 float:left;
-}
-.message .name{
-font-size:1.2vw;
-vertical-align:bottom;
-font-weight:bold;
 }
 .message input{
 height:1.8vw;
@@ -92,13 +98,23 @@ font-size:1.2vw;
 font-weight:bold;
 margin-left:43vw;
 }
+.message .backimg{
+width:4vw;
+}
 .message .name2{
-font-size:1.4vw;
-font-weight:bold;
+font-size:1.8vw;
 margin-top:3vw;
+font-weight:bold;
+}
+.message .backtime{
+font-size:1vw;
+margin-top:5.5vw;
+color:#AAAAAA;
+font-weight:normal;
 }
 .message blockquote{
 word-wrap:break-word;
+margin-left:3vw;
 padding:0 2vw;
 }
 .message .back{
@@ -109,7 +125,7 @@ padding:1vw;
 border-radius:1vw;
 }
 .message .back textarea{
-margin-left:5vw;
+margin-left:1vw;
 width:38vw;
 }
 .message .sub2{
@@ -118,4 +134,185 @@ width:4vw;
 font-size:1.1vw;
 font-weight:bold;
 margin-left:39vw;
+}
+.message .backp{
+font-size:1.3vw;
+margin-left:1vw;
+}
+.phallword{
+display:none;
+}
+.phnewword{
+display:none;
+}
+@media(max-width: 1000px){
+.message .back textarea{
+margin-left:5vw;
+width:35vw;
+}
+.message .sub2{
+height:2vw;
+width:4vw;
+font-size:1vw;
+font-weight:bold;
+margin-left:38vw;
+}
+}
+@media(max-width: 670px){
+.leftas{
+display:none;
+}
+.words{
+width:90vw;
+padding:0vw 1vw;
+margin:10vw 0vw;
+}
+.word{
+background:#FFFFFF;
+border:solid 0.1vw 	#DDDDDD;
+box-shadow: #555555 0.1vw 0.1vw 0.8vw 0px;
+}
+.word h2{
+font-size:10vw;
+margin:2vw 0;
+}
+.words .time{
+padding-right:5vw;
+}
+.word blockquote{
+font-size:5vw;
+margin:1vw 1vw;
+line-height:7vw;
+letter-spacing:0.1vw;
+}
+.word a{
+font-size:4vw;
+margin:1vw 1vw;
+line-height:7vw;
+letter-spacing:0.1vw;
+}
+.php{
+display:block;
+}
+h3{
+background:#FFF;
+padding:2vw;
+font-size:6vw;
+font-weight:bold;
+border:solid 0.1vw 	#DDDDDD;
+}
+.message{
+margin-top:4vw;
+background:#EEEEEE;
+border-radius:0vw;
+padding:0vw;
+margin:3vw 0vw;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+font-size:4vw;
+}
+.message img{
+border:solid #888888 0.1vw;
+padding:0.3vw;
+margin:0.3vw 3vw;
+width:12vw;
+}
+.message input{
+height:4.5vw;
+width:25vw;
+font-size:3.5vw;
+}
+.message textarea{
+height:15vw;
+width:65vw;
+margin-top:2vw;
+}
+.message .sub{
+height:6vw;
+width:12vw;
+font-size:3vw;
+margin-left:71vw;
+}
+.message .backimg{
+width:9vw;
+}
+.message .name2{
+font-size:5vw;
+margin-top:5.5vw;
+}
+.message .backtime{
+font-size:3vw;
+}
+.message blockquote{
+padding-left:12vw;
+padding-bottom:3vw;
+font-size:4.5vw;
+line-height:5.5vw;
+}
+.message .back{
+border:solid 0.1vw #AAAAAA;
+margin-left:7vw;
+padding:5vw;
+border-radius:1vw;
+}
+.message .back .text{
+margin-left:3vw;
+width:30vw;
+}
+.message .back textarea{
+margin-left:5vw;
+width:60vw;
+}
+.message .sub2{
+height:5vw;
+width:12vw;
+font-size:3vw;
+margin-left:53vw;
+}
+.message .backp{
+font-size:4.5vw;
+margin-left:5vw;
+}
+
+.phallword{
+display:block;
+margin-top:4vw;
+background:#99FF9955;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+}
+.phallword .aword {
+padding:0.5vw;
+width:80vw;
+word-wrap:break-word;
+}
+.phallword .aword a{
+font-size:5vw;
+font-weight:bold;
+}
+.phallword .aword p{
+padding-left:7vw;
+font-size:4vw;
+}
+
+.phnewword{
+display:block;
+margin-top:4vw;
+background:#99FF9955;
+box-shadow: #888888 0.1vw 0.1vw 0.2vw 0px;
+}
+.phnewword .aword {
+padding:0.5vw;
+width:80vw;
+word-wrap:break-word;
+}
+.phnewword .aword a{
+font-size:5vw;
+font-weight:bold;
+}
+.phnewword .aword p{
+padding-left:7vw;
+font-size:4vw;
+}
+#i1 ,#i2 ,#i3{
+display:none;
+}
 }
